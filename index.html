@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindKeep (Notes App)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>MindKeep (Notes App)</h1>
+      <button class="delete-all-notes">Delete All notes</button>
+    </header>
+
+    <section class="notes"></section>
+
+    <section class="create">
+      <h3>Create Note</h3>
+      <div class="create-note">
+        <input type="text" id="note-title" placeholder="Enter note title..." />
+        <textarea name="" id="note-content" rows="10" cols="35"></textarea>
+        <button id="create-note-btn">Create new Note</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
